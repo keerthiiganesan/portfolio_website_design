@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reponsive Website</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!-- search boxicons in browser -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+   <!-- search  aos in broser using for animation for website  -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav bd_grid">
+            <div>
+                <a href="#" class="nav_logo">Logo</a>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_items"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_items"><a href="#about" class="nav_link active">About</a></li>
+                    <li class="nav_items"><a href="#skills" class="nav_link active">Skills</a></li>
+                    <li class="nav_items"><a href="#work" class="nav_link active">Work</a></li>
+                    <li class="nav_items"><a href="#contact" class="nav_link active">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home bd_grid" id="home">
+            <div class="home_data" data-aos="fade-down">
+                <h1 class="home_tittle" style="color: black; margin-right: 50%; margin-top: 10%;">
+                    Hi, I'm <br><span class="home_tittle--color" style='color:blue'>Keerthana</span><br>Web Designer
+                </h1>
+                <a href="#contact" class="button">contact</a>
+            </div>
+            <div class="home_social " style="margin-top: 4%; ">
+                
+                <!-- <a href="https://github.com/" class="home_social_icon"></a><i class='bx bxl-github' data-aos="fade-down"  data-aos-delay="300"></i></a> -->
+                <a href="https://x.com/i/flow/login" target="_blank" class="home_social_icon"><i class='bx bxl-twitter' data-aos="fade-down"  data-aos-delay="250"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="home_social_icon"><i class='bx bxl-facebook-circle' data-aos="fade-down"  data-aos-delay="250"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" class="home_social_icon"><i class='bx bxl-youtube' data-aos="fade-down"  data-aos-delay="250"></i></a>
+                <a href="https://github.com/" target="_blank" class="home_social_icon"><i class='bx bxl-github' data-aos="fade-down"  data-aos-delay="250"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="home_social_icon"><i class='bx bxl-instagram' data-aos="fade-down"  data-aos-delay="250"></i></a>
+            </div>
+            <div class="home_img">
+                <img src="./img/undraw_designer_girl_re_h54c.svg" alt="web_design" width="100%" data-aos="fade-down" data-aos-delay="550" >
+            </div>
+            
+        </section>
+        <!-- about -->
+
+        <section class="about section" id="about" data-aos="fade-down">
+            <h2 class="section_tittle">About</h2>
+            <div class="about_container bd_grid">
+                <div class="about_img">
+                    <img src="./img/undraw_progressive_app_m9ms.png" alt="about" data-aos="fade-down">
+                </div>
+                <div>
+                    <h2 class="about_subtittle">I'm Keerthana Ganesan</h2>
+                    <p class="about_text">
+                        What does a Web Developer do? Web Developers create and maintain websites. They will typically spend time creating coding languages like HTML5, which powers many modern mobile devices and managing the site's technical aspects, such as its performance and capacity to handle traffic without crashing.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+         <section class="skills section" id="skills" data-aos="fade-down" style="margin-top: 20%;">
+            <h2 class="section">Skills</h2>
+            <div class="skills_container bg_grid" data-aos="fade-down">
+                <h2 class="skills_subtittle" style="text-align: center;color: black;">Professional Skills</h2>
+                <p class="skills_text">
+                    Skill Progression is a gameplay mechanic that allows the player to increase the stats and performance of a player character.
+                </p>
+                <!-- html -->
+                <div class="skills_data" data-aos="fade-right"  data-aos-delay="50">
+                    <div class="skills_name">
+                        <i class='bx bxl-html5 skills_icon'></i>
+                        <span class="skill_name">Html5</span>
+                    </div>
+                    <div><span class="skill_percentage">95%</span></div>
+                    <div class="skill_bar skill_html"></div>
+                </div>
+                <!-- css -->
+                <div class="skills_data" data-aos="fade-right"  data-aos-delay="100">
+                    <div class="skills_name">
+                        <i class='bx bxl-css3 skills_icon'></i>
+                        <span class="skill_name">CSS3</span>
+                    </div>
+                    <div><span class="skill_percentage">85%</span></div>
+                    <div class="skill_bar skill_css"></div>
+                </div>
+
+                <!-- js -->
+
+                <div class="skills_data" data-aos="fade-right"  data-aos-delay="150">
+                    <div class="skills_name">
+                        <i class='bx bxl-javascript skills_icon'></i>
+                        <span class="skill_name">Javasccript</span>
+                    </div>
+                    <div><span class="skill_percentage">75%</span></div>
+                    <div class="skill_bar skill_js"></div>
+                </div>
+
+                <!-- ui/ux -->
+                <div class="skills_data" data-aos="fade-right"  data-aos-delay="200">
+                    <div class="skills_name">
+                        <i class='bx bxs-paint skills_icon' ></i>
+                        <span class="skill_name">UI/UX</span>
+                    </div>
+                    <div><span class="skill_percentage">85%</span></div>
+                    <div class="skill_bar skill_ui"></div>
+                </div>
+                <div>
+                    <img src="./img/undraw_team_work_k-80-m.svg" alt="teamwork" data-aos="fade-left"  data-aos-delay="300">
+                </div>
+            </div>
+         </section>
+
+         <!-- work section -->
+          <section class="work section" id="work" style="margin-top: 20%;" >
+            <h2 class="section_tittle" data-aos="fade-down">Work</h2>
+            <div class="work_container bd_grid" data-aos="fade-down"  data-aos-delay="300">
+                <div class="work_img">
+                    <img src="./img/undraw_work_from_anywhere_re_s2i6.svg" >
+                </div>
+                <div class="work_img">
+                    <img src="./img/undraw_work_in_progress_re_byic.svg">
+                </div>
+                <div class="work_img" data-aos="fade-right"  data-aos-delay="300">
+                    <img src="./img/undraw_co_workers_re_1i6i.svg">
+                </div>
+                <div class="work_img" data-aos="fade-left"  data-aos-delay="300">
+                    <img src="./img/undraw_working_remotely_re_6b3a.svg">
+                </div>
+                <div class="work_img" data-aos="fade-right"  data-aos-delay="300">
+                    <img src="./img/undraw_working_late_re_0c3y.svg">
+                </div>
+                <div class="work_img" data-aos="fade-left"  data-aos-delay="300">
+                    <img src="./img/undraw_portfolio_re_qwm5.svg" >
+                </div>
+            </div>
+          </section>
+
+          <!-- contact -->
+
+          <section class="contact section" id="contact" >
+            <h2 class="section_tittle" data-aos="fade-down" style="color: red; background-color: gold;" data-aos-delay="300">Contact</h2>
+            <div class="contact_container bd_grid">
+                <form action="#" class="contact_form">
+                    <input type="text" class="control_input" placeholder="Name" data-aos="fade-right"  data-aos-delay="100">
+                    <input type="mail" class="control_input" placeholder="Email" data-aos="fade-right"  data-aos-delay="150">
+                    <textarea name="" id="" cols="0" rows="10" class="control_input" data-aos="fade-right"  data-aos-delay="250"></textarea>
+                   <a href="https://www.wix.com/blog/best-portfolio-websites" target="_blank"><input type="button" class="control_button button" value="send" data-aos="fade-right"  data-aos-delay="300"></a> 
+
+                </form>
+            </div>
+          </section>
+
+          <!-- footer section -->
+           <footer class="footer">
+            <p class="footer_tittle" data-aos="fade-down">Keerthana Ganesan</p>
+            <div class="footer_socials">
+                <a href="https://www.facebook.com/" target="_blank" class="footer_icon" data-aos="fade-down"  data-aos-delay="350"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer_icon" data-aos="fade-down"  data-aos-delay="400"><i class='bx bxl-instagram'></i></a>
+                <a href="https://x.com/i/flow/login" target="_blank" class="footer_icon" data-aos="fade-down"  data-aos-delay="500"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/" target="_blank" class="footer_icon" data-aos="fade-down"  data-aos-delay="550"><i class='bx bxl-github'></i></a>               
+                <a href="https://www.youtube.com/" target="_blank" class="footer_icon" data-aos="fade-down"  data-aos-delay="550"><i class='bx bxl-youtube'></i></a>               
+            </div>  
+            <p>&#169; 2024 copyright all right reserved </p>       
+           </footer>
+    </main>
+       <!-- search  aos in broser using for animation for website  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        AOS.init({
+            duration:1200,
+            once:false,
+        });
+      </script>
+</body>
+</html>
